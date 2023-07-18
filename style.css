@@ -201,6 +201,7 @@ span {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    margin-bottom: 4rem;
     gap: 2rem;
 }
 
@@ -224,6 +225,16 @@ span {
     color: var(--main-color);
 }
 
+.services-box .service-img {
+    width: 10vw;
+    padding-bottom: 2rem;
+}
+
+.services-box .skill-img {
+    width: 6vw;
+    margin: 0 2rem 3rem;
+}
+
 .services-box h3 {
     font-size: 2.6rem;
 }
@@ -245,6 +256,7 @@ span {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
+    margin-bottom: 4rem;
     gap: 2.5rem;
 }
 
@@ -254,7 +266,6 @@ span {
     box-shadow: 0 0 1rem var(--bg-color);
     overflow: hidden;
     display: flex;
-
 }
 
 .projects-box img {
@@ -470,6 +481,14 @@ span {
         margin-bottom: 3rem;
     }
 
+    .services-box .service-img {
+        width: 20vw;
+    }
+
+    .services-box .skill-img {
+        width: 12vw;
+    }
+
     .projects h2 {
         margin-bottom: 3rem;
     }
@@ -502,6 +521,14 @@ span {
 
     .about-img img {
         width: 90vw;
+    }
+
+    .services-box .service-img {
+        width: 28vw;
+    }
+
+    .services-box .skill-img {
+        width: 16vw;
     }
 
     .footer {
