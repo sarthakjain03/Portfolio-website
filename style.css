@@ -519,7 +519,7 @@ span {
     }
 
     .contact-img img {
-        width: 30vw;
+        width: 60vw;
         margin: 2rem 0;
     }
     
@@ -540,11 +540,6 @@ span {
 
     .services-box .skill-img {
         width: 16vw;
-    }
-
-    .contact-img img {
-        width: 50vw;
-        margin: 2rem 0;
     }
 
     .footer {
