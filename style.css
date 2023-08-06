@@ -320,8 +320,42 @@ span {
     color: var(--second-bg-color);
 }
 
+.contact {
+    min-height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
+.contact-heading {
+    text-align: left;
+    font-size: 4.5rem;
+    margin-bottom: 3rem;
+}
 
+.contact-info {
+    margin-bottom: 1rem;
+}
+
+.contact-info a {
+    text-align: left;
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+}
+
+.contact-info .linkedin:hover {
+    color: #0ef;
+}
+
+.contact-info i {
+    font-size: 2rem;
+    margin-right: 10px;
+}
+
+.contact-img img {
+    width: 15vw;
+}
 
 .footer {
     display: flex;
@@ -329,7 +363,7 @@ span {
     align-items: center;
     flex-wrap: wrap;
     padding: 2rem 9%;
-    background: var(--bg-color);
+    background: var(--second-bg-color);
 }
 
 .footer-text p {
@@ -379,7 +413,10 @@ span {
         padding-bottom: 7rem;
     }
 
-    
+    .contact-img img {
+        width: 30vw;
+        margin: 2rem 0;
+    }
 
     .footer {
         padding: 2rem 3%;
@@ -459,11 +496,20 @@ span {
     .projects-container {
         grid-template-columns: repeat(2, 1fr);
     }
+
 }
 
 @media (max-width: 617px){
     .projects-container {
         grid-template-columns: 1fr;
+    }
+
+    .contact {
+        flex-direction: column;
+    }
+
+    .contact-heading {
+        margin-top: 1.5rem;
     }
 }
 
@@ -472,6 +518,10 @@ span {
         font-size: 50%;
     }
 
+    .contact-img img {
+        width: 30vw;
+        margin: 2rem 0;
+    }
     
 }
 
@@ -490,6 +540,11 @@ span {
 
     .services-box .skill-img {
         width: 16vw;
+    }
+
+    .contact-img img {
+        width: 40vw;
+        margin: 2rem 0;
     }
 
     .footer {
