@@ -508,6 +508,10 @@ span {
         flex-direction: column;
     }
 
+    .contact-img img {
+        width: 60vw;
+    }
+
     .contact-heading {
         margin-top: 1.5rem;
     }
@@ -517,12 +521,11 @@ span {
     html {
         font-size: 50%;
     }
-
-    .contact-img img {
-        width: 60vw;
-        margin: 2rem 0;
-    }
     
+    .contact-img img {
+        width: 70vw;
+    }
+
 }
 
 @media (max-width: 365px){
